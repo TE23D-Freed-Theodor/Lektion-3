@@ -1,0 +1,45 @@
+body {
+    background-color: #D0E4F5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
+    color: #333333;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.table {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px 20px; 
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 20px;
+    border-radius: 32px;
+    transition: background-color 0.3s;
+}
+
+.table:hover {
+    background-color: #45a049; /* Darker when hovered */
+}
+
+#row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#horse {
+    max-width: 80%; /* Max 80% of website width */
+    border-radius: 15px; /* Round corners*/
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2); /* Shadow to the horse image */
+}

@@ -1,0 +1,57 @@
+body {
+    background-color: #F0F4F8; 
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50; /* Grön bakgrund för header */
+    padding: 20px;
+    color: white;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+}
+
+#row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.table {
+    background-color: #333; /* background color för table */
+    color: white; /*textfärg (ej font-color eller text-color utan bara color:)*/
+    padding: 15px 25px;
+    text-decoration: none; /* Ta bort understrykning */
+    border-radius: 20px; /* Rounded Corners */
+    margin: 30px;
+}
+
+.table:hover {
+    background-color: #555; /* Ljusare när muspekaren är över */
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 60%; /* 60% av bredden */
+    height: auto; /* proportion är samma som innan*/
+    border-radius: 2000px; /* Rundade hörn  */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Liten skugga */
+}
